@@ -7,7 +7,7 @@ $(document).ready(function() {
     $
         ("#btnGetFacts").click(function() {
 
-            // handle it if input is blank
+
 
             let userName = $("#userName").val();
             let coolFacts = generateCoolNameFacts(userName);
